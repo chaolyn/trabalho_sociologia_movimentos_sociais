@@ -741,6 +741,38 @@ summary {
 }
 
 
+.mst-explanation {
+    padding: 20px;
+
+    border: 1px solid var(--line-hover);
+    border-left: 3px solid var(--accent);
+    background:
+        radial-gradient(circle at 100% 0, rgba(184, 227, 106, 0.08), transparent 45%),
+        var(--surface);
+}
+
+
+.mst-explanation strong {
+    display: block;
+    margin-top: 9px;
+
+    color: var(--text-bright);
+    font-family: var(--title-font);
+    font-size: 1.3rem;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+}
+
+
+.mst-explanation p {
+    margin-top: 10px;
+
+    color: var(--muted);
+    font-size: 0.84rem;
+    line-height: 1.58;
+}
+
+
 .fact-block {
     padding-bottom: 14px;
     border-bottom: 1px solid var(--line);
